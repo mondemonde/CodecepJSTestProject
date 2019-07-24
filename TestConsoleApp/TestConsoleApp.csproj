@@ -48,10 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="TestCases_JELMA\About.md" />
     <None Include="TestCases_AARON\TestProject\package-lock.json" />
     <None Include="TestCases_AARON\TestProject\tsconfig.json" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TestCases_JELMA\NavigateHome_test.js" />
     <Content Include="TestCases_AARON\output\Go_to_Badges_page.failed.png" />
     <Content Include="TestCases_AARON\output\test_something.failed.png" />
     <Content Include="TestCases_AARON\ReadMe.txt" />
@@ -59,8 +61,6 @@
     <Content Include="TestCases_AARON\TestProject\DevForumTests_test.js" />
     <Content Include="TestCases_AARON\TestProject\steps_file.js" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="TestCases\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
