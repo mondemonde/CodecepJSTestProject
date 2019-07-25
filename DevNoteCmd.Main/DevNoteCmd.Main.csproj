@@ -141,8 +141,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\CodeCeptJS\Project1\ReadMe.txt" />
-    <Content Include="bin\Debug\ReadMe.txt" />
+    <Content Include="CodeCeptJS\Project1\ReadMe.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Console.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
