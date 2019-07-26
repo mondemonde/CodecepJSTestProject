@@ -68,10 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CodeceptAction.cs" />
-    <Compile Include="SendKey.cs" />
-    <Compile Include="Type.cs" />
-    <Compile Include="GoTo.cs" />
-    <Compile Include="Click.cs" />
+    <Compile Include="Actions\SendKey.cs" />
+    <Compile Include="Actions\Type.cs" />
+    <Compile Include="Actions\GoTo.cs" />
+    <Compile Include="Actions\Click.cs" />
     <Compile Include="Codecept.cs" />
     <Compile Include="Interpreter.cs" />
     <Compile Include="Program.cs" />
